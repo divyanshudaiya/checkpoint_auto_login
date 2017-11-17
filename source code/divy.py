@@ -1,4 +1,5 @@
 #!C:\ProgramData\Anaconda3\python.exe
+#author L Divyanshu Daiya
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -36,6 +37,6 @@ while True:
 
 	localtime = time.asctime( time.localtime(time.time()) )	
 	attempt+=1
-	print(str(attempt)+" login on "+str(localtime)+"......")
+	print("divy> "+str(attempt)+" login on "+str(localtime)+"......" + "logged in as " +cipher.decrypt(base64.b64decode(usernameBytes)).strip().decode())
 	hours_3=int(time_hours)*3600
 	time.sleep(hours_3)

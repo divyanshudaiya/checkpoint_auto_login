@@ -1,4 +1,5 @@
 #!C:\ProgramData\Anaconda3\python.exe
+#author L Divyanshu Daiya
 from god import *
 from Crypto.Cipher import AES
 import base64
@@ -38,24 +39,26 @@ if timer>4 or timer<1:
 data.write(str(timer))
 data.close()
 print(" ")
-print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
-print(" now use the software by clicking on SADHU.exe  ")
-print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+print(" now use the software by clicking on DIVY.exe (divy.py if running raw) ")
+print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
 print(" ")
-print("the app will close in 20 sec")
+print("this window will close in 15 sec")
 print('...')
 print("unitl that ,please read----")
 print('')
-print('1) you need to start the app ,it ain\'t acheduled to start automatically with system start.')
-print('2) once started the app runs on until you close it.')
+print('1) you need to start DIVY.exe on every system start,it\'s currently not scheduled to start automatically with system start(though you can schedule it in windowws scheduled tasks)')
+print('2) once started ,the script runs on until you close it.')
 print('3) your credentials remain stored locally.')
-print('4) you can change credentials by restarting SETUP.EXE')
+print('4) you can change credentials by re-running SETUP.EXE')
 
 print('')
-print('thanks,jai hind')
+print('dhanyavad,jai hind')
 print('')
 print('......Divyanshu Daiya')
-time.sleep(10)
+print('')
+print('source code :https://github.com/divyanshudaiya/checkpoint_auto_login')
+time.sleep(15)
 # print(type(encoded))
 # a=encoded.decode()
 # #print(bytes(a))
