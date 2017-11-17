@@ -1,4 +1,4 @@
-# checkpoint_auto_login
+# checkpoint_auto_login 1.0
 auto login script for checkpoint portal
 
 **[***STANDALONE .EXE FILE's FOR WINDOWS RELEASED.***](www.google.com)**
@@ -27,8 +27,8 @@ This script uses:
 
 ***Steps (for working with raw python files):***
 1. run **setup.py**:
-	   - set username,password.(it remains saved on your local machine).
-	   - set time limit between login's.(default 3 hours)
+   - set username,password.(it remains saved on your local machine).
+   - set time limit between login's.(default 3 hours)
 2. run **sadhu.py** (make sure you have chrome installed)
    - YOU ARE DONE.
 3. To change username or password ,run setup.py again.
@@ -39,11 +39,12 @@ This script uses:
 
 ***Steps (for working with .exe files):***
 1. run **setup.exe**
-  - set username,password.(it reamins saved on your local machine).
-  - set time limit between login's.(deafult 3 hours)
+   - set username,password.(it reamins saved on your local machine).
+   - set time limit between login's.(deafult 3 hours)
 2. run **sadhu.exe** (make sure you have chrome installed)
-  - YOU ARE DONE.
+   - YOU ARE DONE.
 3. To change username or password ,run setup.exe again.
 
 
 **Any suggestions and ideas are heartedly welcome.**
+
