@@ -1,9 +1,10 @@
-# checkpoint_auto_login 1.0
+# checkpoint_auto_login 2.0
 auto login script for checkpoint portal
 
-**[***STANDALONE INSTALLER (TERMINAL)***](https://raw.githubusercontent.com/divyanshudaiya/checkpoint_auto_login/master/autoLogin_win64inst.exe)**
+**[***(NEW)STANDALONE INSTALLER WITH GUI (v2)***](https://raw.githubusercontent.com/divyanshudaiya/checkpoint_auto_login/master/autoLogin_win64inst_v2.exe)**
 ----------
-**[***STANDALONE INSTALLER WITH GUI***](https://raw.githubusercontent.com/divyanshudaiya/checkpoint_auto_login/master/autoLogin_win64inst_v2.exe)**
+**[***STANDALONE INSTALLER (TERMINAL) (v1)***](https://raw.githubusercontent.com/divyanshudaiya/checkpoint_auto_login/master/autoLogin_win64inst.exe)**
+
 
 Some checkpoint portal's have login time limit ,in our institute its about 4 hours after which it automatically log's you off.
 You then need to login to portal again.
