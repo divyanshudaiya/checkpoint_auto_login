@@ -1,7 +1,8 @@
 # checkpoint_auto_login 1.0
 auto login script for checkpoint portal
 
-**[***STANDALONE .EXE FILE's FOR WINDOWS RELEASED.***](https://raw.githubusercontent.com/divyanshudaiya/checkpoint_auto_login/master/autoLogin_win64inst.exe)**
+**[***STANDALONE INSTALLER (TERMINAL)***](https://raw.githubusercontent.com/divyanshudaiya/checkpoint_auto_login/master/autoLogin_win64inst.exe)**
+**[***STANDALONE INSTALLER WITH GUI***](https://raw.githubusercontent.com/divyanshudaiya/checkpoint_auto_login/master/autoLogin_win64inst_v2.exe)**
 
 Some checkpoint portal's have login time limit ,in our institute its about 4 hours after which it automatically log's you off.
 You then need to login to portal again.
@@ -20,7 +21,7 @@ This script uses:
 
  1. SELENIUM ,for the chrome web driver.
  2. CRYPTO framework for encrypting the saved credentials.
-
+ 3. tkinter (in version 2)
 
 ----------
 
@@ -48,3 +49,9 @@ This script uses:
 
 **Any suggestions and ideas are heartedly welcome.**
 
+----------
+
+***version 2 additions:***
+1. added GUI functionality with tkinter.
+2. added support for detection of network disconnection and automatic login on LAN/WIFI connection.
+   - script automatically differentiates checkpoint login requiring connections from others and logs in automatically.
